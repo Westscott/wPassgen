@@ -170,8 +170,8 @@ class AppMain:
         self.totalWidgets.append(self.delPassBtn)
         
 
-        self.genPassBtn = tk.Button(self.subFrame, text="GENERATE", font=self.activeFont, command=self.GeneratePasswords)
-        self.genPassBtn.pack(side=tk.BOTTOM)
+        self.genPassBtn = tk.Button(self.mainFrameLeft, text="GENERATE", font=self.activeFont, command=self.GeneratePasswords)
+        self.genPassBtn.pack(side=tk.LEFT)
         self.totalWidgets.append(self.genPassBtn)
         
         #! CONFIG
